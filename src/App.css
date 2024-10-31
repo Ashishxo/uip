@@ -1,0 +1,168 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fdb4c1;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+
+.login-btn {
+    background-color: #fdb4c1;
+    color: #fff;
+    border: 1px solid #fdb4c1;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Top Menu */
+.top-menu {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.menu-category {
+    position: relative;
+    margin: 0 20px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    margin-top: 10px;
+    white-space: nowrap;
+    width: 300px;
+}
+
+.dropdown-menu p {
+    margin: 8px 0;
+    color: #333;
+    cursor: pointer;
+}
+
+.dropdown-menu p:hover {
+    color: #d8325e;
+    font-weight: bold;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 300px;
+    object-fit:cover;
+}
+
+.product-name {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product-price {
+    font-size: 14px;
+    color: #d8325e;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #d8325e;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aestheticbar {
+    height: 20px;
+    width: 100%;
+    background-color: #F1CAD1;
+}
+
+
+.category-title{
+    color: #444;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cart-btn {
+    background-color: #fdb4c1;
+    color: #fff;
+    border: 1px solid #fdb4c1;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Optional: Adds a small space between Cart and Login */
+}
+
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+
